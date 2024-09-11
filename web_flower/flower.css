@@ -1,0 +1,111 @@
+/* Đặt font và các thiết lập chung */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header và menu */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul .submenu {
+    display: none;
+    position: absolute;
+    background-color: #4CAF50;
+    list-style-type: none;
+}
+
+nav ul li:hover .submenu {
+    display: block;
+}
+
+nav ul .submenu li {
+    display: block;
+    margin-right: 0;
+}
+
+/* Banner */
+.banner {
+    background-image: url('hoa\ qua\ tuoi.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.banner h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 1.2em;
+}
+
+/* Sản phẩm */
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: white;
+}
+
+.product-item  {
+    text-align: center;
+    width: 30%;
+}
+
+.product-item img {
+    width: 95%;
+    height: auto;
+}
+
+
+
+.product-item h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.product-item p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Giới thiệu */
+.about, .contact {
+    padding: 20px;
+    background-color: white;
+    margin: 20px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
